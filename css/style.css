@@ -228,3 +228,49 @@ body {
   width: 3.5rem;
 }
 /* second menu */
+.menu .second {
+  transition: none;
+}
+.second:hover .top {
+  position: relative;
+  background-color: transparent;
+  border: 0.2rem solid rgb(197, 197, 197);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 10rem;
+  animation-name: change;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+@keyframes change {
+  0% {
+  }
+  25% {
+    border-top: 0.2rem solid rgb(0, 0, 29);
+  }
+  50% {
+    border-right: 0.2rem solid rgb(0, 0, 29);
+  }
+  75% {
+    border-bottom: 0.2rem solid rgb(0, 0, 29);
+  }
+  100% {
+    border-left: 0.2rem solid rgb(0, 0, 29);
+  }
+}
+.second:hover .middle {
+  position: absolute;
+  top: 4.75rem;
+  transform: rotate(0.14turn);
+  width: 2.75rem;
+  height: 0.3rem;
+  background-color: rgb(0, 0, 29);
+}
+.second:hover .bottom {
+  position: absolute;
+  top: 4.75rem;
+  transform: rotate(-0.14turn);
+  width: 2.75rem;
+  height: 0.3rem;
+  background-color: rgb(197, 197, 197);
+}
