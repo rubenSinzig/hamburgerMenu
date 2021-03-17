@@ -9,7 +9,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(0, 0, 29);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 }
 .background div {
   width: 0.2rem;
-  height: 0.2rem;
+  height: 1rem;
   background-color: rgb(228, 228, 228);
   border-radius: 50%;
   box-shadow: 0 0 5px white;
@@ -40,153 +40,153 @@ body {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(2n) {
   animation-name: move-two;
   animation-iteration-count: infinite;
-  animation-duration: 6s;
-  animation-delay: 0.2s;
+  animation-duration: 2.5s;
+  animation-delay: -0.2s;
 }
 @keyframes move-two {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(3n) {
   animation-name: move-three;
   animation-iteration-count: infinite;
-  animation-duration: 5.5s;
-  animation-delay: 0.4s;
+  animation-duration: 3s;
+  animation-delay: -0.4s;
 }
 @keyframes move-three {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(4n) {
   animation-name: move-four;
   animation-iteration-count: infinite;
-  animation-duration: 4s;
-  animation-delay: 0.6s;
+  animation-duration: 3s;
+  animation-delay: -0.6s;
 }
 @keyframes move-four {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(5n) {
   animation-name: move-five;
   animation-iteration-count: infinite;
   animation-duration: 3.5s;
-  animation-delay: 0.8s;
+  animation-delay: -0.8s;
 }
 @keyframes move-five {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(6n) {
   animation-name: move-six;
   animation-iteration-count: infinite;
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-delay: -1s;
 }
 @keyframes move-six {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(7n) {
   animation-name: move-seven;
   animation-iteration-count: infinite;
   animation-duration: 2.5s;
-  animation-delay: 1.2s;
+  animation-delay: -1.2s;
 }
 @keyframes move-seven {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(8n) {
   animation-name: move-eight;
   animation-iteration-count: infinite;
-  animation-duration: 2s;
-  animation-delay: 1.4s;
+  animation-duration: 3s;
+  animation-delay: -1.4s;
 }
 @keyframes move-eight {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(9n) {
   animation-name: move-nine;
   animation-iteration-count: infinite;
-  animation-duration: 1.5s;
-  animation-delay: 1.6s;
+  animation-duration: 2.5s;
+  animation-delay: -1.6s;
 }
 @keyframes move-nine {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 .background div:nth-child(10n) {
   animation-name: move-ten;
   animation-iteration-count: infinite;
-  animation-duration: 1s;
-  animation-delay: 1.8s;
+  animation-duration: 2s;
+  animation-delay: -1.8s;
 }
 @keyframes move-ten {
   from {
     top: 0;
   }
   to {
-    top: 45rem;
-    background-color: rgb(46, 46, 46);
-    box-shadow: 0 0 5px rgb(46, 46, 46);
+    top: 43rem;
+    background-color: rgb(0, 0, 29);
+    box-shadow: 0 0 5px rgb(0, 0, 29);
   }
 }
 /* menu */
@@ -197,9 +197,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(0, 189, 142);
+  background-color: rgb(223, 100, 0);
   border-radius: 50%;
-  box-shadow: 0 0 10px rgb(145, 145, 145);
+  box-shadow: 0 0 15px rgb(173, 173, 173);
   position: relative;
 }
 .menu div {
@@ -207,7 +207,7 @@ body {
   height: 0.6rem;
   background-color: rgb(197, 197, 197);
   border-radius: 2rem;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 /* first menu */
 .first:hover .top {
